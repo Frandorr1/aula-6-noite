@@ -19,4 +19,53 @@ b) let idade;
 c) console.log(typeof nome);
 console.log(typeof idade);
 
+//1.a,b,c,d,e,f,g.
+let nome;
+let idade;
+
+console.log(typeof nome);
+console.log(typeof idade);
+
+//Comentario sobre exer. 1 undefined, pois criei duas caixas de variaveis indefinidas, sem valor,ou seja não esta ocupando espaço no momento e estão vazias.
+
+nome = prompt("qual é o seu nome");
+idade = prompt("qual é a sua idade");
+console.log("qual é o seu", nome,"e sua", idade);
+
+// Comentario: Abriu uma caixa de perguntas. qual é o seu nome? Franciele; Qual é a sua idade? 28
+
+//nome = Franciele;
+//idade = 28;
+
+//console.log("olá", nome, "você tem", idade, "anos");
+
+// Olá Franciele você tem 28 anos.
+
+//2.
+
+let ab = prompt("voce esta usando roupa azul hoje");
+let cd = prompt("voce gosta de inverno");
+let ef = prompt("voce gosta de passear");
+
+console.log(ab);
+console.log(cd);
+console.log(ef);
+
+
+//3.
+let a = 10
+let b = 25
+console.log(a);
+console.log(b);
+
+let c;
+console.log(c);
+
+a = c;
+b = a;
+c = b;
+
+console.log(a, b, c);
+
+
 
