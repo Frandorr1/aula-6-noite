@@ -12,11 +12,11 @@
 nome para variavel t = valorDiario
 
 
-//4.
-codigo
-let nome;
-let idade;
-//console.log(typeof nome);
-//console.log(typeof idade);
+//1.
+
+a) let nome;
+b) let idade;
+c) console.log(typeof nome);
+console.log(typeof idade);
 
 
